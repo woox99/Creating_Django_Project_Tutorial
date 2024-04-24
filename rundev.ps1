@@ -1,6 +1,8 @@
 # PowerShell script
-# Execute this script on the same level as manage.py
+# Execute this script from the django directory
+
 projectenv/Scripts/activate
+cd 'projectname'
 python manage.py runserver
 
 
